@@ -1,5 +1,7 @@
+
 .jumbotext {
   margin-left: 20px;
+  text-shadow: black 0.1em 0.2em 0.4em;
 }
 
 #rome, #london, #paris, #peru, #rio {
@@ -15,4 +17,24 @@
   text-align: center;
   color: #grey;
   margin-left: 0;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url(../img/background.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container
+
+body {
+  padding-top: 0px;
+  background-image: url(../img/pagebackground.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
