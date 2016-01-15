@@ -29,12 +29,11 @@
     color: white;
 }
 
-.container
-
 body {
   padding-top: 0px;
   background-image: url(../img/pagebackground.jpg);
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 500px;
 }
