@@ -23,8 +23,6 @@ $(document).ready(function() {
     } else {
       $("#paris").show();
     }
-
-
   event.preventDefault();
   });
 });

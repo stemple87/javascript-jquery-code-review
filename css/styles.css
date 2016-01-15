@@ -37,3 +37,11 @@ body {
   color: #grey;
   margin-left: 0;
 }
+
+.destination p {
+  margin-top: 15px;
+}
+
+#mybutton2 {
+  float: center;
+}
