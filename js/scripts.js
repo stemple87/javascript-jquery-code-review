@@ -5,7 +5,7 @@ $(document).ready(function() {
     var sea = $("select#sea").val();
     var preference = $("select#preference").val();
     var hotcold = $("select#hotcold").val();
-    
+
     if (age === "old" && (color === "blue" || color === "red") && sea === "yes" && preference === "opera" && hotcold === "hot") {
       $("#rome").show();
     } else if (age === "old" && (color === "blue" || color === "green") && (sea === "yes" || sea === "no") && preference === "opera" && hotcold === "cold") {
@@ -23,6 +23,9 @@ $(document).ready(function() {
     } else {
       $("#paris").show();
     }
+    $("button#mybutton2").click(function() {
+      $(".destination").hide();
+    });
   event.preventDefault();
   });
 });
